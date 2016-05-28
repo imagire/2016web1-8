@@ -16,6 +16,14 @@ body{
   background: lightgreen;
   color: black;
 }
+
+#gnav a.selected {
+  background: white
+  color: darkgreen;
+  font-weight: bold; /* 太字にしてみる */
+}
+
+
 #gnav ul {
   overflow: hidden;
 }
