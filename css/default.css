@@ -12,13 +12,14 @@ body{
   background: darkgreen;
   color: white;
 }
+
 #gnav a:hover {
   background: lightgreen;
   color: black;
 }
 
 #gnav a.selected {
-  background: white
+  background: white;
   color: darkgreen;
   font-weight: bold; /* 太字にしてみる */
 }
