@@ -33,6 +33,11 @@ body{
   text-decoration: none;/* 下線を消す */
   color: white;
 }
+#gnav a:after {
+    content: "";
+    clear: both;
+    display: block;
+}
 
 #gnav div {
   float: left;
