@@ -36,11 +36,11 @@ body{
   vertical-align: middle;
   padding:10px 5px; /* 上下に空間を確保する  */
 }
-#home{    background-position: 0 0px;}
-#content1{background-position: 0 -46px;}
-#content2{background-position: 0 -92px;}
-#help{    background-position: 0 -148px;}
-#faq{     background-position: 0 -184px;}
+#home #gnav div.img{    background-position: 0 0px;}
+#content1 #gnav div.img{background-position: 0 -46px;}
+#content2 #gnav div.img{background-position: 0 -92px;}
+#help #gnav div.img{    background-position: 0 -148px;}
+#faq #gnav div.img{     background-position: 0 -184px;}
 
 #gnav a:hover {
   background: lightgreen;
