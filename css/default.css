@@ -6,8 +6,10 @@ body{
 
 #gnav a {
   display: block; /* a要素のブロック化 */
-  padding:10px 0;
-  text-align: center;
+  padding:10px 0; /* 上下に空間を確保する  */
+  text-align: center; /* 中央揃え */
+  text-decoration: none;/* 下線を消す */
+  background: darkgreen;
   color: white;
 }
 #gnav a:hover {
