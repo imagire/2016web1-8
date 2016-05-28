@@ -4,10 +4,6 @@ body{
   background-color: mediumaquamarine;
 }
 
-#gnav ul {
-  overflow: hidden;
-}
-
 #gnav li {
   float: left;/* 固定幅にするためにfloatで指定 */
   width: 156px;
