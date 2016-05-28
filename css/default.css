@@ -28,8 +28,15 @@ body{
     display: block;
 }
 
-#gnav div {
-  float: left;
+#gnav div.img {
+  display: table-cell;
+  vertical-align: middle;
+  background: url(../img/css_sprite.png) no-repeat;
+  width: 55px;
+  height: 46px;
+}
+#gnav div.text {
+  display: table-cell;
   vertical-align: middle;
   background: url(../img/css_sprite.png) no-repeat;
   width: 55px;
