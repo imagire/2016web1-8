@@ -10,6 +10,7 @@ body{
 
 #logo li {
   float: left;/* 固定幅にするためにfloatで指定 */
+  list-style-type: none;/* 点を消す */
 }
 
 #logo img {
