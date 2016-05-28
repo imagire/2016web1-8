@@ -20,7 +20,9 @@ body{
   padding:10px 0; /* 上下に空間を確保する  */
   text-align: center; /* 中央揃え */
   text-decoration: none;/* 下線を消す */
-  background: darkgreen;
+  background: url(../img/css_sprite.png) no-repoeat;
+  width: 55px;
+  height: 45px;
   color: white;
 }
 
@@ -39,6 +41,23 @@ body{
 #gnav ul {
   overflow: hidden;
 }
+
+#home{
+  backgrount-position: 0 -24px;
+}
+#content1{
+  backgrount-position: 0 -24px;
+}
+#content1{
+  backgrount-position: 0 -24px;
+}
+#help{
+  backgrount-position: 0 -24px;
+}
+#faq{
+  backgrount-position: 0 -24px;
+}
+
 
 #gnav li {
   float: left;/* 固定幅にするためにfloatで指定 */
