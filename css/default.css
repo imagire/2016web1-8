@@ -41,27 +41,27 @@ body{
 }
 
 #home{
-  backgrount-position: 0 -24px;
+  backgrount-position: 0 0px;
   width: 55px;
   height: 46px;
 }
 #content1{
-  backgrount-position: 0 -24px;
+  backgrount-position: 0 -46px;
   width: 55px;
   height: 46px;
 }
 #content1{
-  backgrount-position: 0 -24px;
+  backgrount-position: 0 -92px;
   width: 55px;
   height: 46px;
 }
 #help{
-  backgrount-position: 0 -24px;
+  backgrount-position: 0 -148px;
   width: 55px;
   height: 46px;
 }
 #faq{
-  backgrount-position: 0 -24px;
+  backgrount-position: 0 -184px;
   width: 55px;
   height: 46px;
 }
