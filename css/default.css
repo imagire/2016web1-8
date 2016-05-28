@@ -13,6 +13,6 @@ body{
         content: " > "; /* liの前に記号追加 */
 }
 
-.topicpath ol li:first-child:before {
+.breadcrumbs ol li:first-child:before {
         content:""; /* 最初だけcontentを消す */
 }
