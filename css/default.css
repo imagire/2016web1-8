@@ -20,10 +20,11 @@ body{
   padding:10px 0; /* 上下に空間を確保する  */
   text-align: right; /* 中央揃え */
   text-decoration: none;/* 下線を消す */
-  background: url(../img/css_sprite.png) no-repeat;
   color: white;
 }
-
+#gnav div {
+  background: url(../img/css_sprite.png) no-repeat;
+}
 #gnav a:hover {
   background: lightgreen;
   color: black;
