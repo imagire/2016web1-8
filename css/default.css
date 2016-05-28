@@ -20,7 +20,7 @@ body{
   padding:10px 0; /* 上下に空間を確保する  */
   text-align: center; /* 中央揃え */
   text-decoration: none;/* 下線を消す */
-  background: url(../img/css_sprite.png) no-repoeat;
+  background: url(../img/css_sprite.png) no-repeat;
   width: 55px;
   height: 45px;
   color: white;
