@@ -30,18 +30,17 @@ body{
   background: url(../img/css_sprite.png) no-repeat;
   width: 55px;
   height: 46px;
-  backgrount-position: 0 -184px;
 }
 #gnav div.text {
   display: table-cell;
   vertical-align: middle;
   padding:10px 5px; /* 上下に空間を確保する  */
 }
-#gnav div.img.home{    backgrount-position: 0 0px;}
-#gnav div.img.content1{backgrount-position: 0 -46px;}
-#gnav div.img.content1{backgrount-position: 0 -92px;}
-#gnav div.img.help{    backgrount-position: 0 -148px;}
-#gnav div.img.faq{     backgrount-position: 0 -184px;}
+.home #gnav div.img{    background-position: 0 0px;}
+.content1 #gnav div.img{background-position: 0 -46px;}
+.content1 #gnav div.img{background-position: 0 -92px;}
+.help #gnav div.img{    background-position: 0 -148px;}
+.faq #gnav div.img{     background-position: 0 -184px;}
 
 #gnav a:hover {
   background: lightgreen;
