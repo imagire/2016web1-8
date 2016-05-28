@@ -15,19 +15,9 @@ body{
   width: 100px;
 }
 
-#gnav a:hover {
-  background: lightgreen;
-  color: black;
-}
-
-#gnav a.selected {
-  background: white;
-  color: darkgreen;
-  font-weight: bold; /* 太字にしてみる */
-}
-
 #gnav a {
-  display: block; /* a要素のブロック化 */
+  display: table-cell;
+  vertical-align: middle;
   padding:10px 5px; /* 上下に空間を確保する  */
   text-align: center; /* 中央揃え */
   text-decoration: none;/* 下線を消す */
@@ -51,6 +41,16 @@ body{
 #help{    backgrount-position: 0 -148px;}
 #faq{     backgrount-position: 0 -184px;}
 
+#gnav a:hover {
+  background: lightgreen;
+  color: black;
+}
+
+#gnav a.selected {
+  background: white;
+  color: darkgreen;
+  font-weight: bold; /* 太字にしてみる */
+}
 
 #gnav ul {
   overflow: hidden;
