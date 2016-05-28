@@ -21,8 +21,6 @@ body{
   text-align: right; /* 中央揃え */
   text-decoration: none;/* 下線を消す */
   background: url(../img/css_sprite.png) no-repeat;
-  width: 55px;
-  height: 46px;
   color: white;
 }
 
@@ -44,18 +42,28 @@ body{
 
 #home{
   backgrount-position: 0 -24px;
+  width: 55px;
+  height: 46px;
 }
 #content1{
   backgrount-position: 0 -24px;
+  width: 55px;
+  height: 46px;
 }
 #content1{
   backgrount-position: 0 -24px;
+  width: 55px;
+  height: 46px;
 }
 #help{
   backgrount-position: 0 -24px;
+  width: 55px;
+  height: 46px;
 }
 #faq{
   backgrount-position: 0 -24px;
+  width: 55px;
+  height: 46px;
 }
 
 
