@@ -17,17 +17,13 @@ body{
 
 #gnav a {
   display: block;
-  padding:10px 5px; /* 上下に空間を確保する  */
   text-align: center; /* 中央揃え */
   text-decoration: none;/* 下線を消す */
   color: white;
 }
 #gnav a:after {
-    content: "";
     clear: both;
-    display: block;
 }
-
 #gnav div.img {
   display: table-cell;
   vertical-align: middle;
@@ -38,6 +34,7 @@ body{
 #gnav div.text {
   display: table-cell;
   vertical-align: middle;
+  padding:10px 5px; /* 上下に空間を確保する  */
 }
 #home{    backgrount-position: 0 0px;}
 #content1{backgrount-position: 0 -46px;}
