@@ -28,8 +28,8 @@ body{
 
 #gnav a {
   display: block; /* a要素のブロック化 */
-  padding:10px 0; /* 上下に空間を確保する  */
-  text-align: right; /* 中央揃え */
+  padding:10px 5px; /* 上下に空間を確保する  */
+  text-align: center; /* 中央揃え */
   text-decoration: none;/* 下線を消す */
   color: white;
 }
