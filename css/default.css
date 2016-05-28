@@ -30,6 +30,7 @@ body{
   background: url(../img/css_sprite.png) no-repeat;
   width: 55px;
   height: 46px;
+  backgrount-position: 0 -184px;
 }
 #gnav div.text {
   display: table-cell;
