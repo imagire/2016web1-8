@@ -17,6 +17,7 @@ body{
 
 #gnav a {
   display: block;
+  float:; left;
   padding:10px 5px; /* 上下に空間を確保する  */
   text-align: center; /* 中央揃え */
   text-decoration: none;/* 下線を消す */
