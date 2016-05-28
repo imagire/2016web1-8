@@ -38,9 +38,6 @@ body{
 #gnav div.text {
   display: table-cell;
   vertical-align: middle;
-  background: url(../img/css_sprite.png) no-repeat;
-  width: 55px;
-  height: 46px;
 }
 #home{    backgrount-position: 0 0px;}
 #content1{backgrount-position: 0 -46px;}
