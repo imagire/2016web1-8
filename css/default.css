@@ -14,11 +14,6 @@ body{
 #logo img {
   width: 100px;
 }
-#home{    backgrount-position: 0 0px;}
-#content1{backgrount-position: 0 -46px;}
-#content1{backgrount-position: 0 -92px;}
-#help{    backgrount-position: 0 -148px;}
-#faq{     backgrount-position: 0 -184px;}
 
 #gnav a {
   display: block;
@@ -41,6 +36,11 @@ body{
   vertical-align: middle;
   padding:10px 5px; /* 上下に空間を確保する  */
 }
+#home{    backgrount-position: 0 0px;}
+#content1{backgrount-position: 0 -46px;}
+#content1{backgrount-position: 0 -92px;}
+#help{    backgrount-position: 0 -148px;}
+#faq{     backgrount-position: 0 -184px;}
 
 #gnav a:hover {
   background: lightgreen;
